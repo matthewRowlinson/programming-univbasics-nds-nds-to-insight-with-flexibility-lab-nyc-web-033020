@@ -86,8 +86,7 @@ def gross_per_studio(collection)
     hash[:worldwide_gross] = this_gross
   end
     i += 1 
-  end 
-  binding.pry 
+  end
   hash 
 end
 
