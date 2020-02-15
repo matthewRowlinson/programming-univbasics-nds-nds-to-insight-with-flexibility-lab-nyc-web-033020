@@ -81,6 +81,7 @@ def gross_per_studio(collection)
     this_gross = collection[count][:worldwide_gross]
     if hash[studio] 
       hash[:gross] += this_gross 
+    end 
     hash[:studio] = studio
     hash[:worldwide_gross] = this_gross
     
